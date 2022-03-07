@@ -10,7 +10,26 @@
   <body>
     <div id="search-engine">
       <h1>Library of Congress Search Engine</h1>
-      <button id="search-button">Search</button>
+      <input type="search" id="query" placeholder="Search..." />
+      <button>Search</button>
     </div>
+    <div class="dropdown">
+      <div id="myDropdown" class="dropdown-content">
+        <input
+          type="text"
+          placeholder="Select a format..."
+          id="myInput"
+          onkeyup="filterFunction()"
+        />
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <a href="#a">A</a>
+        <a href="#b">B</a>
+        <a href="#c">C</a>
+        <a href="#d">D</a>
+        <a href="#e">E</a>
+        <a href="#f">F</a>
+        <a href="#g">G</a>
+    </div>
+    
   </body>
 </html>
