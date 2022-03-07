@@ -1,0 +1,14 @@
+:root{
+    --primary: #2b79d1;
+}
+
+
+
+body {
+background-color: var(--primary);
+margin: 0;
+padding: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 16px;
+}
